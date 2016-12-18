@@ -1,0 +1,98 @@
+html { 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/santa.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+  color: #fff;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+.container {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+a {
+  color: #fff;
+  font-size: 1.4em;
+  text-decoration: none;
+  text-align: center;
+  background-image: linear-gradient(89deg, #4184D4 0%, #61B5F4 100%);
+  padding: 20px;
+  font-weight: 300;
+  display: block;
+  border-radius: 50px;
+  min-width: 240px;
+  max-width: 300px;
+  transition: 0.1s;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.30);
+  margin: 0 auto;
+
+}
+
+a:hover {
+ background-image: linear-gradient(89deg, #3376C7 0%, #49A0E0 100%);
+}
+
+a img {
+  width: 30px;
+  float: left;
+}
+
+a p {
+  margin: 0;
+}
+
+
+#cta {
+  text-align: center;
+  padding: 120px 10px 10px 10px;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.title h1 {
+  font-weight: 300;
+  font-size: 3em;
+}
+
+#canvas {
+  display: block;
+  position: fixed;
+}
+
+
+@media screen and (min-width: 440px) {
+  #cta {
+    padding: 200px 10px 10px 10px;
+
+  }
+
+
+.title {
+  margin-bottom: 80px;
+}
+
+.title h1 {
+  font-weight: 300;
+  font-size: 3.5em;
+}
+}
+
+
+
+ 
+}
