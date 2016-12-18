@@ -16,7 +16,7 @@ body {
   display: flex;
 }
 
-a {
+#cta a {
   color: #fff;
   font-size: 1.4em;
   text-decoration: none;
@@ -34,11 +34,11 @@ a {
 
 }
 
-a:hover {
+#cta a:hover {
  background-image: linear-gradient(89deg, #3376C7 0%, #49A0E0 100%);
 }
 
-a img {
+#cta a img {
   width: 30px;
   float: left;
 }
@@ -73,6 +73,31 @@ a p {
   display: block;
   position: fixed;
 }
+
+.powered {
+  position: fixed;
+  bottom: 30px;
+  right: 170px;
+  z-index: 1000;
+}
+
+.powered a {
+   text-decoration: none;
+
+  }
+
+.powered p {
+  position: relative;
+  font-size: 0.9em;
+ color: rgba(255, 255, 255, 0.5);
+}
+.powered img {
+  width: 100px;
+  position: absolute;
+  left: 82px;
+  top: -10px;
+}
+
 
 
 @media screen and (min-width: 440px) {
