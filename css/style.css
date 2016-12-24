@@ -1,13 +1,12 @@
 html { 
-    
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/santa2.jpg) no-repeat center center fixed;
+    background-size: cover; 
 }
 
 body {
   color: #fff;
   font-family: "Lato", Helvetica, sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/santa.jpg) no-repeat center center fixed;
-    background-size: cover;
 }
 
 .container {
@@ -102,9 +101,9 @@ a p {
 
 
 @media screen and (min-width: 440px) {
+
   #cta {
     padding: 200px 10px 10px 10px;
-
   }
 
 
@@ -116,8 +115,12 @@ a p {
   font-weight: 300;
   font-size: 3.5em;
 }
-}
 
+html { 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/santa.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
 
 
  
